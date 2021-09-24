@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>ParcialPIII1</title>
+</head>
+
+<body>
+    <h1 style="background-color:DodgerBlue;">REGISTRE INSCRIPCIÓN</h1>
+    <hr>
+    <nav class="nav">
+        <a class="nav-link" href="form.html">Formulario de inscripción</a>
+        <a class="nav-link" href="QUEHACEMOS.html">QUÉ HACEMOS?</a>
+        <a class="nav-link" href="index.html">INICIO</a>
+    </nav>
+    <hr>
+    <div class="Formulario">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-2 col-sm-12"></div>
+                    <div class="col-lg-8 col-md-8 col-sm-12">
+                        <h1>ALTA DE USUARIO</h1>
+                        <section id="Nombre">
+                            <div>
+                                <label for="inputName">Nombre/s</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Nombre">
+                            </div>
+                        </section>
+                        <section id="Apellido">
+                            <div>
+                                <label for="inputApellido">Apellido</label>
+                                <input type="text" class="form-control" id="inputApellido" placeholder="Apellido">
+                            </div>
+                        </section>
+                        <section id="radioButon">
+                            <div>
+                                <label for="inputSexo">Sexo</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sexo" id="exampleRadios1"
+                                        value="option1">
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        Masculino
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sexo" id="exampleRadios2"
+                                        value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        Femenino
+                                    </label>
+                                </div>
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="sexo" id="exampleRadios3"
+                                        value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        Otros
+                                    </label>
+                                </div>
+                            </div>
+                            <form>
+                                <div class="form-row">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Calle">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="N°">
+                                  </div>
+                                </div>
+                              </form>
+                              <form>
+                                <div class="form-row">
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Barrio">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="CP">
+                                  </div>
+                                </div>
+                              </form>
+                        </div>
+                    </section>
+                </div>
+        </div>
+      <div class="col-lg-2 col-md-2 col-sm-12"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-sm-12"></div>
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                      <section id="Desplegable">
+                        <div>
+                            <label for="inputState">DEPORTE</label>
+                            <select id="inputState" class="form-control">
+                                <option value="0">Seleccionar</option>
+                                <option value="1">Tenis</option>
+                                <option value="2">Futbol</option>
+                                <option value="3">Padel</option>
+                                <option value="4">Squash</option>
+                            </select>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-12"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12"></div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+               <button type="button" onclick="ValidarForm()" class="btn btn-primary" id="enviar">Validar
+                    Inscripción</button>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12"></div>
+    </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function ValidarForm() {
+            let txNombre = document.getElementById("inputName").value;
+            let txtApellido = document.getElementById("inputApellido").value;
+            let selection = document.getElementById("inputState").value;
+
+
+            if (txNombre === "" || !isNaN(txNombre)) {
+                Swal.fire("Ingrese su NOMBRE")
+                return false;
+            }
+            else if (txNombre.length > 60) {
+                Swal.fire("EL NOMBRE ingresado es muy largo");
+                return false;
+            }
+
+            if (txtApellido === "" || !isNaN(txtApellido)) {
+                Swal.fire("Ingrese su APELLIDO")
+                return false;
+            }
+            else if (txtApellido.length > 60) {
+                Swal.fire("EL APELLIDO ingresado es muy largo");
+                return false;
+            }
+
+            let radioChequeado = false;
+            var radios = document.getElementsByName("sexo");
+            for (let i = 0; i < radios.length; i++) {
+                if (radios[i].checked) {
+                    radioChequeado = true;
+                    break;
+                }
+            }
+            if (radioChequeado == false) {
+                Swal.fire("Seleccione sexo");
+                return false;
+            }
+
+            if (selection == "0") {
+                Swal.fire("Seleccione un Deporte")
+                return false;
+            }
+     
+            Swal.fire({
+                position: 'enviar',
+                icon: 'success',
+                title: 'Tu reserva a sido enviada con exito!!',
+                showConfirmButton: false,
+                timer: 1500
+            })
+        }
+
+
+    </script>
+</body>
+
+</html>
